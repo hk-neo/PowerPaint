@@ -588,7 +588,7 @@ if __name__ == "__main__":
     fitting_degree = 0.5
     ddim_steps = 45
     scale = 5.5
-    seed = 147483647
+    seed = random.randint(1, 100000000)
     task = "text-guided"
     
     if args.controlnet == "controlnetPath":
